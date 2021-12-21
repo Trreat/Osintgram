@@ -1,0 +1,16 @@
+git clone https://github.com/Datalux/Osintgram 
+ls
+cd Osintgram
+sudo apt install python3
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+mkdir config
+cd config
+echo "ronaldofansuu" >ronaldofansuu.conf
+echo "ronaldofansuuu" > pw.conf
+echo "{ }" > settings.json
+ls
+cd ..
+ls
+python3 main.py targetusername
+list
